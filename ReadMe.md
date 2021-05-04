@@ -1,5 +1,3 @@
-#emotion-detection-spectrograms
-
 Building deep learning model to detect emotions from an audio dataset by converting them to spectrogram images.
 When we are given an audio dataset, the usual approach would be to extrct the features from each audio, (like mfcc, mel stft) and train a neural network  with these features. 
 Here, an attempt is made to convert these audio data to image data (spectrograms) and let the CNN take care of feature extraction and the neural network is trained based on these features.
